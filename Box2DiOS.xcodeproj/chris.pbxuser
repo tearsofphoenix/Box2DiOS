@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* iphoneOpenGLBox2DAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {667, 766}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 541}";
+		};
+	};
+	1D3623250D0F684500981E51 /* iphoneOpenGLBox2DAppDelegate.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {667, 766}}";
+			sepNavSelRange = "{415, 0}";
+			sepNavVisRange = "{0, 1055}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iphoneOpenGLBox2D */ = {
+		activeExec = 0;
+		executables = (
+			832FA6E913E3F82D00D6C14A /* iphoneOpenGLBox2D */,
+		);
+	};
+	28EC4C5611D54ECE0027AA9F /* iphoneOpenGLBox2DViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 624}}";
+			sepNavSelRange = "{367, 0}";
+			sepNavVisRange = "{66, 538}";
+		};
+	};
+	28EC4C5711D54ECE0027AA9F /* iphoneOpenGLBox2DViewController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {667, 6292}}";
+			sepNavSelRange = "{2103, 0}";
+			sepNavVisRange = "{1463, 1651}";
+		};
+	};
+	28FD14FC0DC6FC130079059D /* EAGLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 789}}";
+			sepNavSelRange = "{173, 27}";
+			sepNavVisRange = "{0, 1002}";
+		};
+	};
+	28FD14FD0DC6FC130079059D /* EAGLView.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 1976}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{301, 1326}";
+			sepNavWindowFrame = "{{15, 148}, {810, 875}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 832FA6E913E3F82D00D6C14A /* iphoneOpenGLBox2D */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iphoneOpenGLBox2D */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iphoneOpenGLBox2D */,
+		);
+		breakpoints = (
+			83BFBC5713E41C0F001C8101 /* iphoneOpenGLBox2DViewController.mm:146 */,
+		);
+		codeSenseManager = 832FA6F613E3F84B00D6C14A /* Code sense */;
+		executables = (
+			832FA6E913E3F82D00D6C14A /* iphoneOpenGLBox2D */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					489,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 333743067;
+			PBXWorkspaceStateSaveDate = 333743067;
+		};
+		perUserProjectItems = {
+			832FAD0D13E40D4000D6C14A /* PBXTextBookmark */ = 832FAD0D13E40D4000D6C14A /* PBXTextBookmark */;
+			832FAD2313E40E5000D6C14A /* PBXTextBookmark */ = 832FAD2313E40E5000D6C14A /* PBXTextBookmark */;
+			832FAD2413E40E5000D6C14A /* PBXTextBookmark */ = 832FAD2413E40E5000D6C14A /* PBXTextBookmark */;
+			832FAD2513E40E5000D6C14A /* PBXTextBookmark */ = 832FAD2513E40E5000D6C14A /* PBXTextBookmark */;
+			832FAD4F13E4154000D6C14A /* PBXTextBookmark */ = 832FAD4F13E4154000D6C14A /* PBXTextBookmark */;
+			832FAD5013E4154000D6C14A /* PBXTextBookmark */ = 832FAD5013E4154000D6C14A /* PBXTextBookmark */;
+			832FAD5113E4154000D6C14A /* PBXTextBookmark */ = 832FAD5113E4154000D6C14A /* PBXTextBookmark */;
+			8378E51113E483F3003CA393 /* PBXTextBookmark */ = 8378E51113E483F3003CA393 /* PBXTextBookmark */;
+			837DA56413E4830300AE085D /* PBXTextBookmark */ = 837DA56413E4830300AE085D /* PBXTextBookmark */;
+			83BFBC9113E42116001C8101 /* PBXTextBookmark */ = 83BFBC9113E42116001C8101 /* PBXTextBookmark */;
+			83BFBC9C13E42214001C8101 /* PBXTextBookmark */ = 83BFBC9C13E42214001C8101 /* PBXTextBookmark */;
+			83BFBC9D13E42214001C8101 /* PBXTextBookmark */ = 83BFBC9D13E42214001C8101 /* PBXTextBookmark */;
+			83BFBCF213E42B42001C8101 /* PBXTextBookmark */ = 83BFBCF213E42B42001C8101 /* PBXTextBookmark */;
+			83BFBCF313E42B42001C8101 /* PBXTextBookmark */ = 83BFBCF313E42B42001C8101 /* PBXTextBookmark */;
+			83BFBCFE13E42C0C001C8101 /* PBXTextBookmark */ = 83BFBCFE13E42C0C001C8101 /* PBXTextBookmark */;
+			83BFBCFF13E42C0C001C8101 /* PBXTextBookmark */ = 83BFBCFF13E42C0C001C8101 /* PBXTextBookmark */;
+			83BFBD0B13E42C7F001C8101 /* PBXTextBookmark */ = 83BFBD0B13E42C7F001C8101 /* PBXTextBookmark */;
+			83BFBD6A13E4307A001C8101 /* PBXTextBookmark */ = 83BFBD6A13E4307A001C8101 /* PBXTextBookmark */;
+			83BFBD6B13E4307A001C8101 /* PBXTextBookmark */ = 83BFBD6B13E4307A001C8101 /* PBXTextBookmark */;
+			83BFBD7413E430BC001C8101 /* PBXTextBookmark */ = 83BFBD7413E430BC001C8101 /* PBXTextBookmark */;
+			83BFBD9813E433B1001C8101 /* PBXTextBookmark */ = 83BFBD9813E433B1001C8101 /* PBXTextBookmark */;
+			83BFBDCB13E43A38001C8101 /* PlistBookmark */ = 83BFBDCB13E43A38001C8101 /* PlistBookmark */;
+		};
+		sourceControlManager = 832FA6F513E3F84B00D6C14A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* iphoneOpenGLBox2D_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 469}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{0, 332}";
+		};
+	};
+	832FA6E913E3F82D00D6C14A /* iphoneOpenGLBox2D */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iphoneOpenGLBox2D;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	832FA6F513E3F84B00D6C14A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	832FA6F613E3F84B00D6C14A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	832FAC7B13E402E500D6C14A /* Box2D.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {544, 819}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2241}";
+		};
+	};
+	832FAC7F13E402E500D6C14A /* b2BroadPhase.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 1430}}";
+			sepNavSelRange = "{919, 0}";
+			sepNavVisRange = "{785, 277}";
+		};
+	};
+	832FAC8013E402E500D6C14A /* b2BroadPhase.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {631, 2860}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1136}";
+		};
+	};
+	832FAC9513E402E500D6C14A /* b2Math.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 7878}}";
+			sepNavSelRange = "{8809, 0}";
+			sepNavVisRange = "{8410, 785}";
+		};
+	};
+	832FAC9713E402E500D6C14A /* b2Settings.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {558, 1989}}";
+			sepNavSelRange = "{967, 0}";
+			sepNavVisRange = "{0, 2096}";
+		};
+	};
+	832FAC9B13E402E500D6C14A /* b2Body.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {628, 5746}}";
+			sepNavSelRange = "{953, 0}";
+			sepNavVisRange = "{0, 1567}";
+		};
+	};
+	832FAC9C13E402E500D6C14A /* b2Body.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {631, 10426}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{66, 1104}";
+		};
+	};
+	832FAC9E13E402E500D6C14A /* b2ContactManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {631, 624}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1146}";
+		};
+	};
+	832FACA413E402E500D6C14A /* b2World.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 13572}}";
+			sepNavSelRange = "{21172, 0}";
+			sepNavVisRange = "{21928, 1233}";
+		};
+	};
+	832FACA513E402E500D6C14A /* b2World.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {677, 3354}}";
+			sepNavSelRange = "{972, 0}";
+			sepNavVisRange = "{940, 2387}";
+		};
+	};
+	832FACA713E402E500D6C14A /* b2WorldCallbacks.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 2834}}";
+			sepNavSelRange = "{6398, 11}";
+			sepNavVisRange = "{6083, 1817}";
+		};
+	};
+	832FAD0D13E40D4000D6C14A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* iphoneOpenGLBox2D_Prefix.pch */;
+		name = "iphoneOpenGLBox2D_Prefix.pch: 15";
+		rLen = 0;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 332;
+		vrLoc = 0;
+	};
+	832FAD2313E40E5000D6C14A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FAC7F13E402E500D6C14A /* b2BroadPhase.cpp */;
+		name = "b2BroadPhase.cpp: 6";
+		rLen = 0;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 0;
+	};
+	832FAD2413E40E5000D6C14A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FAC8013E402E500D6C14A /* b2BroadPhase.h */;
+		name = "b2BroadPhase.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1136;
+		vrLoc = 0;
+	};
+	832FAD2513E40E5000D6C14A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FAC9513E402E500D6C14A /* b2Math.h */;
+		name = "b2Math.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 0;
+	};
+	832FAD4F13E4154000D6C14A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FAC9E13E402E500D6C14A /* b2ContactManager.h */;
+		name = "b2ContactManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 0;
+	};
+	832FAD5013E4154000D6C14A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FAC9C13E402E500D6C14A /* b2Body.h */;
+		name = "b2Body.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1104;
+		vrLoc = 66;
+	};
+	832FAD5113E4154000D6C14A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FAC9B13E402E500D6C14A /* b2Body.cpp */;
+		name = "b2Body.cpp: 19";
+		rLen = 0;
+		rLoc = 953;
+		rType = 0;
+		vrLen = 1567;
+		vrLoc = 0;
+	};
+	8378E51113E483F3003CA393 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* iphoneOpenGLBox2DViewController.mm */;
+		name = "iphoneOpenGLBox2DViewController.mm: 79";
+		rLen = 0;
+		rLoc = 2103;
+		rType = 0;
+		vrLen = 1651;
+		vrLoc = 1463;
+	};
+	837DA56413E4830300AE085D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* iphoneOpenGLBox2DViewController.mm */;
+		name = "iphoneOpenGLBox2DViewController.mm: 82";
+		rLen = 0;
+		rLoc = 2142;
+		rType = 0;
+		vrLen = 1651;
+		vrLoc = 1463;
+	};
+	83BFBC5713E41C0F001C8101 /* iphoneOpenGLBox2DViewController.mm:146 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28EC4C5711D54ECE0027AA9F /* iphoneOpenGLBox2DViewController.mm */;
+		functionName = "-viewDidUnload";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 146;
+		location = iphoneOpenGLBox2D;
+		modificationTime = 333724762.249211;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	83BFBC9113E42116001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FAC9713E402E500D6C14A /* b2Settings.h */;
+		name = "b2Settings.h: 22";
+		rLen = 0;
+		rLoc = 967;
+		rType = 0;
+		vrLen = 2096;
+		vrLoc = 0;
+	};
+	83BFBC9C13E42214001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FAC7B13E402E500D6C14A /* Box2D.h */;
+		name = "Box2D.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2241;
+		vrLoc = 0;
+	};
+	83BFBC9D13E42214001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FACA513E402E500D6C14A /* b2World.h */;
+		name = "b2World.h: 22";
+		rLen = 0;
+		rLoc = 972;
+		rType = 0;
+		vrLen = 2387;
+		vrLoc = 940;
+	};
+	83BFBCE713E42A99001C8101 /* MyDebugDraw.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 789}}";
+			sepNavSelRange = "{410, 0}";
+			sepNavVisRange = "{0, 736}";
+		};
+	};
+	83BFBCE813E42A99001C8101 /* MyDebugDraw.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 766}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{0, 1070}";
+		};
+	};
+	83BFBCF213E42B42001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iphoneOpenGLBox2DAppDelegate.mm */;
+		name = "iphoneOpenGLBox2DAppDelegate.mm: 18";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 1055;
+		vrLoc = 0;
+	};
+	83BFBCF313E42B42001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iphoneOpenGLBox2DAppDelegate.h */;
+		name = "iphoneOpenGLBox2DAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 541;
+		vrLoc = 0;
+	};
+	83BFBCFE13E42C0C001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5611D54ECE0027AA9F /* iphoneOpenGLBox2DViewController.h */;
+		name = "iphoneOpenGLBox2DViewController.h: 19";
+		rLen = 0;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 1197;
+		vrLoc = 0;
+	};
+	83BFBCFF13E42C0C001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28FD14FD0DC6FC130079059D /* EAGLView.mm */;
+		name = "EAGLView.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1326;
+		vrLoc = 301;
+	};
+	83BFBD0B13E42C7F001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FACA713E402E500D6C14A /* b2WorldCallbacks.h */;
+		name = "b2WorldCallbacks.h: 169";
+		rLen = 11;
+		rLoc = 6398;
+		rType = 0;
+		vrLen = 1817;
+		vrLoc = 6083;
+	};
+	83BFBD6A13E4307A001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83BFBCE713E42A99001C8101 /* MyDebugDraw.h */;
+		name = "MyDebugDraw.h: 16";
+		rLen = 0;
+		rLoc = 410;
+		rType = 0;
+		vrLen = 736;
+		vrLoc = 0;
+	};
+	83BFBD6B13E4307A001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28FD14FC0DC6FC130079059D /* EAGLView.h */;
+		name = "EAGLView.h: 11";
+		rLen = 27;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 0;
+	};
+	83BFBD7413E430BC001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 832FACA413E402E500D6C14A /* b2World.cpp */;
+		name = "b2World.cpp: 930";
+		rLen = 0;
+		rLoc = 21172;
+		rType = 0;
+		vrLen = 1233;
+		vrLoc = 21928;
+	};
+	83BFBD9813E433B1001C8101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83BFBCE813E42A99001C8101 /* MyDebugDraw.cpp */;
+		name = "MyDebugDraw.cpp: 15";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 1070;
+		vrLoc = 0;
+	};
+	83BFBDCB13E43A38001C8101 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iphoneOpenGLBox2D-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/chris/iPhoneBox2DSetup/iPhoneBox2D/iphoneOpenGLBox2D/iphoneOpenGLBox2D-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+}
