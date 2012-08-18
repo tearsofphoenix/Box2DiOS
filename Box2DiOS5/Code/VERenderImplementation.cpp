@@ -32,6 +32,7 @@ static inline void _VERenderImpelementation_drawSolid(GLfloat *vertices,
     glEnableClientState(GL_VERTEX_ARRAY); //use vertices in subsequent calls to glDrawArrays
     
     glEnable(GL_BLEND);
+    glEnable(GL_LINE_SMOOTH);
 	glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     
     //draw solid area
@@ -124,10 +125,8 @@ void VERenderImplementation::DrawSegment(const b2Vec2& p1, const b2Vec2& p2, con
     glVertices[1] = p1.y;
     glVertices[2] = p2.x;
     glVertices[3] = p2.y;
-    printf("p1(%f,  %f), p2(%f, %f)\n", p1.x, p1.y, p2.x, p2.y);
-//    glLineWidth(5);
+
     _VERenderImpelementation_draw(glVertices, vertixCount, color, GL_LINES);
-//    glLineWidth(1);
 }
 
 void VERenderImplementation::DrawTransform(const b2Transform& xf)
@@ -167,10 +166,12 @@ void VERenderImplementation::DrawPoint(const b2Vec2& p, float32 size, const b2Co
 
 void VERenderImplementation::DrawString(int x, int y, const char* string, ...)
 {
+    /*
     va_list ap;
     va_start(ap, string);
     vprintf(string, ap);
     va_end(ap);
+     */
 }
 
 void VERenderImplementation::DrawAABB(b2AABB* aabb, const b2Color& color)

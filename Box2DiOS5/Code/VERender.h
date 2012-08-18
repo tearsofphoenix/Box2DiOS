@@ -21,6 +21,10 @@ class VERenderImplementation;
     b2World *_world;
 }
 
+@property (nonatomic, copy) dispatch_block_t stepBlock;
+
+@property (nonatomic, copy) dispatch_block_t renderBlock;
+
 @property (nonatomic, readonly) b2World *world;
 
 @property (nonatomic, readonly) VERenderImplementation *renderImpl;

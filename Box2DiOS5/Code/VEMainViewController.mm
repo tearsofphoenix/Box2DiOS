@@ -57,7 +57,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     TestCreateFcn *function = g_testEntries[[indexPath row]].createFcn;
-    printf("name: %s\n", g_testEntries[[indexPath row]].name);
     
     Box2DViewController *viewController = [[Box2DViewController alloc] initFunction: function];
     

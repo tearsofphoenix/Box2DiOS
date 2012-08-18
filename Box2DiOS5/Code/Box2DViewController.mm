@@ -17,6 +17,7 @@
 @interface Box2DViewController ()
 {
     Test *_test;
+    Settings *_settings;
 }
 @end
 
@@ -29,9 +30,13 @@
         if ((self = [super init]))
         {
             _render = [[VERender alloc] init];
-            
+            _settings = new Settings;
             _test = function([_render world], [_render renderImpl]);
-            
+            [_render setStepBlock: (^
+                                    {
+                                        _test->Step(_settings);
+                                    })];
+             
             _context = [[EAGLContext alloc] initWithAPI: kEAGLRenderingAPIOpenGLES1];
         }
         return self;
@@ -54,9 +59,7 @@
     [_context release];
 
     delete  _test;
-    
-    [_render tearDown];
-    
+        
     [_render release];
 
     [super dealloc];
@@ -92,6 +95,8 @@
 
 - (void)backward
 {
+    [_render tearDown];
+
     [self dismissModalViewControllerAnimated: YES];
 }
 

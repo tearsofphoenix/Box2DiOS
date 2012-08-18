@@ -79,6 +79,16 @@
     delete _render;
     delete _world;
     
+    if (_stepBlock)
+    {
+        Block_release(_stepBlock);
+    }
+    
+    if (_renderBlock)
+    {
+        Block_release(_renderBlock);
+    }
+    
     [super dealloc];
 }
 
@@ -115,6 +125,10 @@
 - (void)updateWorld
 {
     _world->Step(_worldUpdateInterval, 8, 3);
+    if (_stepBlock)
+    {
+        _stepBlock();
+    }
 }
 
 
@@ -131,6 +145,11 @@
 	glOrthof(-16, 16, -8, 40, -1, 1);
     
 	_world->DrawDebugData();
+    
+    if (_renderBlock)
+    {
+        _renderBlock();
+    }
 }
 
 #pragma mark - GLKViewDelegate
@@ -169,14 +188,19 @@
 
 - (void)tearDown
 {
+    [self setStepBlock: nil];
+    [self setRenderBlock: nil];
+
     [_displayTimer invalidate];
     _displayTimer = nil;
+    
     [_worldUpdateTimer invalidate];
     _worldUpdateTimer = nil;
     
     [_view setDelegate: nil];
     [_view release];
     _view = nil;
+    
 }
 
 @synthesize renderImpl = _render;
@@ -194,5 +218,9 @@
     
     [super release];
 }
+
+@synthesize stepBlock = _stepBlock;
+
+@synthesize renderBlock = _renderBlock;
 
 @end

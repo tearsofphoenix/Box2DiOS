@@ -125,6 +125,7 @@
 		E16E0C1815DE6BAF00725A83 /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E16E0B5915DE4DE200725A83 /* b2Rope.cpp */; };
 		E16E0C1C15DE856E00725A83 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
 		E16E0C1F15DE90C900725A83 /* NVTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E0C1E15DE90C900725A83 /* NVTimer.m */; };
+		E18D702615DF770F00B8C83D /* VEView.mm in Sources */ = {isa = PBXBuildFile; fileRef = E18D702515DF770E00B8C83D /* VEView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -320,6 +321,8 @@
 		E16E0C0D15DE6B1C00725A83 /* VERender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VERender.h; sourceTree = "<group>"; };
 		E16E0C1D15DE90C900725A83 /* NVTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVTimer.h; sourceTree = "<group>"; };
 		E16E0C1E15DE90C900725A83 /* NVTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVTimer.m; sourceTree = "<group>"; };
+		E18D702415DF770E00B8C83D /* VEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEView.h; sourceTree = "<group>"; };
+		E18D702515DF770E00B8C83D /* VEView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VEView.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -685,13 +688,15 @@
 		E16E0BBD15DE505300725A83 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				E12E6A4215DF1B05009FEB88 /* Tests */,
 				E12E6A7315DF1B22009FEB88 /* Render */,
 				E12E6A7215DF1B0B009FEB88 /* Root */,
-				E12E6A4215DF1B05009FEB88 /* Tests */,
 				E16E0BD115DE52A300725A83 /* Box2DViewController.h */,
 				E16E0BD215DE52A300725A83 /* Box2DViewController.mm */,
 				E114FAD615DF2C6100D1845B /* VEMainViewController.h */,
 				E114FAD715DF2C6200D1845B /* VEMainViewController.mm */,
+				E18D702415DF770E00B8C83D /* VEView.h */,
+				E18D702515DF770E00B8C83D /* VEView.mm */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -904,6 +909,7 @@
 				E12E6A7615DF1B50009FEB88 /* Test.cpp in Sources */,
 				E114FAD815DF2C6200D1845B /* VEMainViewController.mm in Sources */,
 				E114FAFA15DF464C00D1845B /* CADisplayLink+BloackSupport.m in Sources */,
+				E18D702615DF770F00B8C83D /* VEView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
