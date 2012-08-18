@@ -17,7 +17,7 @@
 
 #include <Box2D/Box2D.h>
 
-#include "Box2DiOSRender.h"
+#include "VERender.h"
 
 #import "Box2DiOSViewController.h"
 #import "EAGLView.h"
@@ -44,7 +44,7 @@ enum
 @private
     b2World* m_world;
     
-	Box2DiOSRender *m_debugDraw;
+	VERender *m_debugDraw;
 
     BOOL _animating;
 }
@@ -111,7 +111,7 @@ enum
         m_world = new b2World( b2Vec2(0,-10));
         m_world->SetAllowSleeping(true);
         
-        m_debugDraw = new Box2DiOSRender;
+        m_debugDraw = new VERender;
         
         m_debugDraw->SetFlags(b2Draw::e_shapeBit);
         

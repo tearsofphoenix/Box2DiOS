@@ -1,5 +1,5 @@
 /*
- *  Box2DiOSRender.cpp
+ *  VERender.cpp
  *  Box2DiOS
  *
  *  Created by Campbell Chris on 7/30/11.
@@ -8,9 +8,9 @@
  */
 
 #import <OpenGLES/ES1/gl.h>
-#include "Box2DiOSRender.h"
+#include "VERender.h"
 
-static GLfloat *Box2DRender_copyVertices(const b2Vec2* vertices, int32 vertexCount)
+static GLfloat *_VERenderImplementation_copyVertices(const b2Vec2* vertices, int32 vertexCount)
 {
     //set up vertex array
     GLfloat *glVertices = (GLfloat *)malloc(sizeof(GLfloat) * 2 * vertexCount);
@@ -25,10 +25,10 @@ static GLfloat *Box2DRender_copyVertices(const b2Vec2* vertices, int32 vertexCou
 	return glVertices;
 }
 
-void Box2DiOSRender::DrawPolygon(const b2Vec2* vertices, int32 vertexCount, const b2Color& color)
+void VERender::DrawPolygon(const b2Vec2* vertices, int32 vertexCount, const b2Color& color)
 {
     //set up vertex array
-    GLfloat *glverts = Box2DRender_copyVertices(vertices, vertexCount);
+    GLfloat *glverts = _VERenderImplementation_copyVertices(vertices, vertexCount);
     
     glVertexPointer(2, GL_FLOAT, 0, glverts); //tell OpenGL where to find vertices
     glEnableClientState(GL_VERTEX_ARRAY); //use vertices in subsequent calls to glDrawArrays
@@ -40,10 +40,10 @@ void Box2DiOSRender::DrawPolygon(const b2Vec2* vertices, int32 vertexCount, cons
     free(glverts);
 }
 
-void Box2DiOSRender::DrawSolidPolygon(const b2Vec2* vertices, int32 vertexCount, const b2Color& color) 
+void VERender::DrawSolidPolygon(const b2Vec2* vertices, int32 vertexCount, const b2Color& color) 
 {
     //set up vertex array
-    GLfloat *glverts = Box2DRender_copyVertices(vertices, vertexCount);
+    GLfloat *glverts = _VERenderImplementation_copyVertices(vertices, vertexCount);
     
     glVertexPointer(2, GL_FLOAT, 0, glverts); //tell OpenGL where to find vertices
     glEnableClientState(GL_VERTEX_ARRAY); //use vertices in subsequent calls to glDrawArrays
@@ -62,7 +62,7 @@ void Box2DiOSRender::DrawSolidPolygon(const b2Vec2* vertices, int32 vertexCount,
     free(glverts);
 }
 
-static GLfloat * Box2DRender_copyVerticesOfCircle(const b2Vec2& center, float32 radius, int32 count)
+static GLfloat * _VERenderImplementation_copyVerticesOfCircle(const b2Vec2& center, float32 radius, int32 count)
 {
     GLfloat *glVertices = (GLfloat *)malloc(sizeof(GLfloat) * 2 * count);
     
@@ -79,9 +79,9 @@ static GLfloat * Box2DRender_copyVerticesOfCircle(const b2Vec2& center, float32 
     return glVertices;
 }
 
-void Box2DiOSRender::DrawCircle(const b2Vec2& center, float32 radius, const b2Color& color)
+void VERender::DrawCircle(const b2Vec2& center, float32 radius, const b2Color& color)
 {
-    GLfloat *glverts = Box2DRender_copyVerticesOfCircle(center, radius, m_circleSegmentCount);
+    GLfloat *glverts = _VERenderImplementation_copyVerticesOfCircle(center, radius, m_circleSegmentCount);
     
     glVertexPointer(2, GL_FLOAT, 0, glverts); //tell OpenGL where to find vertices
     glEnableClientState(GL_VERTEX_ARRAY); //use vertices in subsequent calls to glDrawArrays
@@ -94,9 +94,9 @@ void Box2DiOSRender::DrawCircle(const b2Vec2& center, float32 radius, const b2Co
 }
 
 
-void Box2DiOSRender::DrawSolidCircle(const b2Vec2& center, float32 radius, const b2Vec2& axis, const b2Color& color)
+void VERender::DrawSolidCircle(const b2Vec2& center, float32 radius, const b2Vec2& axis, const b2Color& color)
 {
-    GLfloat *glverts = Box2DRender_copyVerticesOfCircle(center, radius, m_circleSegmentCount);
+    GLfloat *glverts = _VERenderImplementation_copyVerticesOfCircle(center, radius, m_circleSegmentCount);
     
     glVertexPointer(2, GL_FLOAT, 0, glverts); //tell OpenGL where to find vertices
     glEnableClientState(GL_VERTEX_ARRAY); //use vertices in subsequent calls to glDrawArrays

@@ -1,5 +1,5 @@
 /*
- *  Box2DiOSRender.h
+ *  VERender.h
  *  Box2DiOS
  *
  *  Created by Campbell Chris on 7/30/11.
@@ -9,7 +9,7 @@
 
 #include <Box2D/Box2D.h>
 
-class Box2DiOSRender : public b2Draw
+class VERender : public b2Draw
 {
 public:
     void DrawPolygon(const b2Vec2* vertices, int32 vertexCount, const b2Color& color);
@@ -20,7 +20,7 @@ public:
     void DrawTransform(const b2Transform& xf) {}
     
 public:
-    Box2DiOSRender()
+    VERender()
     {
         m_circleSegmentCount = 64;
     }
